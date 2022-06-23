@@ -1,0 +1,31 @@
+V3 23
+FL /home/sd/ula/adder.vhd 2022/05/26.12:22:52 P.20131013
+EN work/ADDER 1656008186 FL /home/sd/ula/adder.vhd PB ieee/std_logic_1164 1381692176
+AR work/ADDER/Behavioral 1656008187 \
+      FL /home/sd/ula/adder.vhd EN work/ADDER 1656008186
+FL /home/sd/ula/comparador.vhd 2008/12/08.22:23:56 P.20131013
+EN work/COMPARADOR 1656008194 FL /home/sd/ula/comparador.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/COMPARADOR/Behavioral 1656008195 \
+      FL /home/sd/ula/comparador.vhd EN work/COMPARADOR 1656008194
+FL /home/sd/ula/complementador.vhd 2022/05/26.13:41:36 P.20131013
+EN work/complementador 1656008190 FL /home/sd/ula/complementador.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/complementador/Behavioral 1656008191 \
+      FL /home/sd/ula/complementador.vhd EN work/complementador 1656008190
+FL /home/sd/ula/contador.vhd 2022/06/23.14:31:15 P.20131013
+EN work/CONTADOR 1656008188 FL /home/sd/ula/contador.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/CONTADOR/behavioral 1656008189 \
+      FL /home/sd/ula/contador.vhd EN work/CONTADOR 1656008188
+FL /home/sd/ula/fulladder.vhd 2022/06/23.14:18:13 P.20131013
+EN work/fulladder 1656008192 FL /home/sd/ula/fulladder.vhd PB ieee/std_logic_1164 1381692176
+AR work/fulladder/Behavioral 1656008193 \
+      FL /home/sd/ula/fulladder.vhd EN work/fulladder 1656008192 CP ADDER
+FL /home/sd/ula/ula.vhd 2022/06/23.15:13:03 P.20131013
+EN work/ULA 1656008196 FL /home/sd/ula/ula.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/ULA/Behavioral 1656008197 \
+      FL /home/sd/ula/ula.vhd EN work/ULA 1656008196 CP CONTADOR CP COMPLEMENTADOR \
+      CP FULLADDER CP COMPARADOR

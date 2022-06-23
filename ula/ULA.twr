@@ -1,0 +1,106 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -s 5 -n
+3 -fastpaths -xml ULA.twx ULA.ncd -o ULA.twr ULA.pcf -ucf ULA.ucf
+
+Design file:              ULA.ncd
+Physical constraint file: ULA.pcf
+Device,package,speed:     xc3s700an,fgg484,-5 (PRODUCTION 1.42 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock clock_50 to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+cout        |   15.603(R)|clock_50_BUFGP    |   0.000|
+neg         |   15.960(R)|clock_50_BUFGP    |   0.000|
+overflow    |   15.428(R)|clock_50_BUFGP    |   0.000|
+z<0>        |   15.734(R)|clock_50_BUFGP    |   0.000|
+z<1>        |   13.658(R)|clock_50_BUFGP    |   0.000|
+z<2>        |   15.953(R)|clock_50_BUFGP    |   0.000|
+z<3>        |   16.043(R)|clock_50_BUFGP    |   0.000|
+zero        |   16.666(R)|clock_50_BUFGP    |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clock_50
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clock_50       |    4.367|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+s<0>           |cout           |   12.443|
+s<0>           |neg            |   12.800|
+s<0>           |overflow       |   12.268|
+s<0>           |z<0>           |   10.239|
+s<0>           |z<1>           |   10.609|
+s<0>           |z<2>           |   11.830|
+s<0>           |z<3>           |   12.883|
+s<0>           |zero           |   13.354|
+s<1>           |cout           |   13.107|
+s<1>           |neg            |   13.464|
+s<1>           |overflow       |   12.932|
+s<1>           |z<0>           |   10.963|
+s<1>           |z<1>           |   11.162|
+s<1>           |z<2>           |   12.494|
+s<1>           |z<3>           |   13.547|
+s<1>           |zero           |   14.018|
+s<2>           |cout           |   12.802|
+s<2>           |neg            |   13.159|
+s<2>           |overflow       |   12.627|
+s<2>           |z<0>           |   10.272|
+s<2>           |z<1>           |   10.968|
+s<2>           |z<2>           |   12.189|
+s<2>           |z<3>           |   13.242|
+s<2>           |zero           |   13.713|
+---------------+---------------+---------+
+
+
+Analysis completed Thu Jun 23 15:16:08 2022 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 377 MB
+
+
+

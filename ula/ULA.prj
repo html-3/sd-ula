@@ -1,0 +1,6 @@
+vhdl work "adder.vhd"
+vhdl work "fulladder.vhd"
+vhdl work "contador.vhd"
+vhdl work "complementador.vhd"
+vhdl work "comparador.vhd"
+vhdl work "ula.vhd"

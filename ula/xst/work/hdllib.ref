@@ -1,0 +1,12 @@
+EN adder NULL /home/sd/ula/adder.vhd sub00/vhpl00 1656008186
+EN complementador NULL /home/sd/ula/complementador.vhd sub00/vhpl04 1656008190
+EN fulladder NULL /home/sd/ula/fulladder.vhd sub00/vhpl06 1656008192
+AR comparador behavioral /home/sd/ula/comparador.vhd sub00/vhpl09 1656008195
+EN ula NULL /home/sd/ula/ula.vhd sub00/vhpl10 1656008196
+AR ula behavioral /home/sd/ula/ula.vhd sub00/vhpl11 1656008197
+AR adder behavioral /home/sd/ula/adder.vhd sub00/vhpl01 1656008187
+EN comparador NULL /home/sd/ula/comparador.vhd sub00/vhpl08 1656008194
+EN contador NULL /home/sd/ula/contador.vhd sub00/vhpl02 1656008188
+AR complementador behavioral /home/sd/ula/complementador.vhd sub00/vhpl05 1656008191
+AR fulladder behavioral /home/sd/ula/fulladder.vhd sub00/vhpl07 1656008193
+AR contador behavioral /home/sd/ula/contador.vhd sub00/vhpl03 1656008189
