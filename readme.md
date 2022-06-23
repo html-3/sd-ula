@@ -1,9 +1,7 @@
----
-FORMAT: 1A
-HOST: http://www.google.com
----
-
 # Sistemas Digitais: ULA de oito operações
+
+## Descrição
+O objetivo do deste projeto foi modelar, programar e testar uma Unidade Lógica e Aritmética, de quatro operações, usando os conhecimentos adquiridos em Circuitos Lógicos e aplicados nas aulas práticas no laboratório de Sistemas Digitais.
 
 ## Integrantes
 Diego Freitas\
@@ -12,19 +10,13 @@ Pedro Henrique Teixeira
 
 ## Entradas e saídas
 ### Bits de seleção
-<center>
-
 |Pin|Bit|
 |---|---|
 | T9  | S2 |
 | U8  | S1 |
 | U10 | S0 |
-
-</center>
 	 
 ### Bits de saída
-<center>
-
 |Pin|Bit|
 |-|-|
 | W21 | Z3 |
@@ -36,16 +28,12 @@ Pedro Henrique Teixeira
 | T19 | OVERFLOW |
 | R20 | ZERO |
 
-</center>
-
 **OBS** : A comparação tem as sequintes saídas
 - Z0 = GREATER
 - Z1 = EQUAL
 - Z2 = LOWER
 
 ## Operações
-<center>
-
 |Seletor| Operação|
 |---|---|
 | `000` | Soma          |
@@ -56,6 +44,4 @@ Pedro Henrique Teixeira
 | `101` | OR   |
 | `110` | Dobrar  |
 | `111` | Comparar|
-
-</center>
 
